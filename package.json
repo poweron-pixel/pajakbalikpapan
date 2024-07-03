@@ -1,0 +1,33 @@
+{
+  "name": "pajakbalikpapannew",
+  "version": "0.1.0",
+  "description": "Nextly Landing Page Template",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && git add out/ && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages",
+    "format": "prettier --check --ignore-path .gitignore .",
+    "format:fix": "prettier --write --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@headlessui/react": "^1.2.0",
+    "@heroicons/react": "^2.0.11",
+    "@tailwindcss/aspect-ratio": "latest",
+    "next": "latest",
+    "next-seo": "^5.14.1",
+    "next-themes": "latest",
+    "prettier": "^2.7.1",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "@types/react": "^18.0.25",
+    "autoprefixer": "latest",
+    "postcss": "latest",
+    "tailwindcss": "latest",
+    "typescript": "^4.9.3"
+  }
+}
